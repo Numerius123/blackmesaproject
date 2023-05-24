@@ -1,0 +1,86 @@
+html{
+  background-color: rgba(0, 0, 0, 0.953);
+  background-image: url(./assets/media/BM.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: auto) {
+html {
+  background-size: auto;
+  background-position: center;
+}
+}
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: #2cc966;
+  user-select: none;
+}
+
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  color: #35bb1e;
+  user-select: none; 
+}
+
+#AM{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 36px;
+  color: #f4ca20; 
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: black; 
+  -webkit-text-stroke-style: solid; 
+  text-shadow: 1.7px 3.5px #667, 2px 2px #444, 3px 3px #222; 
+  user-select: none;
+}
+
+#WP{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 33px;
+  color: #a6f420;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-style: solid;
+  text-shadow: 1.7px 3.5px #667, 2px 2px #444, 3px 3px #222;
+  user-select: none;
+}
+
+#CM{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 33px;
+  color: #0eb939;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-style: solid;
+  text-shadow: 1.7px 3.5px #667, 2px 2px #444, 3px 3px #222;
+  user-select: none;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #f0af37;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  box-shadow: 0 0 10px 5px #ffff99;
+}
+
+img:hover{
+  box-shadow: 0 0 10px 5px #ffff99;
+}
+
+img{
+  border-style:ridge;
+  user-select: none;
+}

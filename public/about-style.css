@@ -1,0 +1,70 @@
+body {
+  background-color: rgba(0, 0, 0, 0.897);
+  user-select: none;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f0af37;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f0af37;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f0af37;
+}
+
+li {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f0af37;
+}
+
+strong {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f0af37;
+}
+
+b {
+  font-family: 'Courier New', Courier, monospace;
+  color: #f0af37;
+}
+
+#dc-animation {
+  display: inline-block;
+  position: relative;
+  font-size: 2rem;
+}
+
+.circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: #B41E1E;
+  border-radius: 50%;
+
+ 
+  animation: circleRotation 9s linear infinite;
+  animation-direction: alternate;
+}
+
+.lambda {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: white;
+}
+
+@keyframes circleRotation {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
